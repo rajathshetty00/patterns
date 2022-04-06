@@ -1,3 +1,12 @@
+This is an example of a react pattern [render props]
+This example contains 2 implementations.
+
+<li>With Render props</li>
+<li>Without render props</li>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
