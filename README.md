@@ -3,6 +3,7 @@ This example contains 2 implementations.
 
 <li>With Render props</li>
 <li>Without render props</li>
+<li>useState hook internals</li>
 
 
 
