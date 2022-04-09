@@ -2,7 +2,7 @@
 
 export const MyReact = (function() {
 
-    let state //a variable which has lexical scoping with all returning functions 
+    let state //a variable
     return {
         render(Component) {
             const Comp = Component()
@@ -11,6 +11,7 @@ export const MyReact = (function() {
           },
 
         useState: function(initialiser){
+            //this function forms closure with state variable
             state = state || initialiser
             function setState(newValue){
                 state = newValue
