@@ -12,18 +12,19 @@ const Counter = () => {
 }
 
 let App
-
-App = MyReact.render(Counter)
-App.click()
-App = MyReact.render(Counter)
-App.click()
-App = MyReact.render(Counter)
-App.click()
-App = MyReact.render(Counter)
-App.click()
-App = MyReact.render(Counter)
-App.click()
-App = MyReact.render(Counter)
+ 
+// commented out to remove console logs. uncomment this during debugging
+// App = MyReact.render(Counter)
+// App.click()
+// App = MyReact.render(Counter)
+// App.click()
+// App = MyReact.render(Counter)
+// App.click()
+// App = MyReact.render(Counter)
+// App.click()
+// App = MyReact.render(Counter)
+// App.click()
+// App = MyReact.render(Counter)
 
 
 
